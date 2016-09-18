@@ -7,8 +7,9 @@ This script is still currently in testing stages, so though it is fully function
 
 For macOS:
 - Open Terminal
-- Browse to the [directory-name]/dist
+- Browse to the `[directory-name]/dist`. 
 - Run LyricChecker.app
+- **Note: if you've downloaded the zip file to your downloads folder, unzip it and then browse to ~/Downloads/LyricChecker-master/dist**
 
 For Windows:
 - Ensure Python is installed on your machine. Automated install may be added in the future. Python can be installed from https://www.python.org/downloads/

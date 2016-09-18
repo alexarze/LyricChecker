@@ -1,17 +1,19 @@
 # LyricChecker
-A script written in Python to display the number of "expletives" in each song of an album. This list was compiled by Google for a previous project.
+A Python GUI application that implements Tkinter to display the number of "expletives" in each song of an album. This list was compiled by Google for a previous project.
 
-This script is still currently in testing stages, so though it is fully functional, it may still have problems and revisions necessary
+This script is still currently in testing stages, so though it is fully functional, it may still have problems and revisions necessary. The GUI is brand new and is expected to have some fixing/improvements to be made, but appears to be fully functional as well.
 
 # Usage
 
 For macOS:
 - Open Terminal
-- Browse to the containing folder for the scripts
-- Run `python album.py`
+- Browse to the [directory-name]/dist
+- Run LyricChecker.app
 
 For Windows:
-- Instructions need to be added
+- Ensure Python is installed on your machine. Automated install may be added in the future. Python can be installed from https://www.python.org/downloads/
+- Run 'dir [path-to-directory]' in a Console window
+- Run 'py main.py' in the same Console window
 
 For Linux:
 - Instructions need to be added
@@ -23,6 +25,6 @@ I am not responsible for the misuse of this script by any people, though my inte
 
 # Ideas
 - Catch for artist title parsing error for AZLyrics
-- Better interface
-- Easier launch sequence
+- Better interface (Tkinter has been implemented - further work needed?)
+- Windows executable application (py2exe support)
 - Mobile/web integration?

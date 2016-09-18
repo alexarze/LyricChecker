@@ -7,11 +7,12 @@ Usage:
 
 from setuptools import setup
 
-APP = ['album.py']
-DATA_FILES = ['LyricChecker.app']
+APP = ['main.py']
+DATA_FILES = ['./func.py','./app.py','./expletives.py']
 OPTIONS = {'argv_emulation': True}
 
 setup(
+    name="LyricChecker",
     app=APP,
     data_files=DATA_FILES,
     options={'py2app': OPTIONS},

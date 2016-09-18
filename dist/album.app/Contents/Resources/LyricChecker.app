@@ -1,0 +1,1 @@
+/Users/Arze/Documents/Github/LyricChecker/LyricChecker.app

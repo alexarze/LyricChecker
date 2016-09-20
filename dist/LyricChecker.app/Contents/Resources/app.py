@@ -10,7 +10,7 @@ class App:
         master.config(bg='pink')
         
         # Initialize the left frame for date input
-        leftFrame = Frame(master, bg='blue')
+        leftFrame = Frame(master)
         leftFrame.config(padx=50)
         leftFrame.pack(side=LEFT, fill=BOTH, expand=True)
 
@@ -38,7 +38,8 @@ class App:
         self.albumTitleField.pack(fill=X)
 
         # Submit button to run script
-        self.submitButton = Button(inputFrame, text="Submit", command=self.submit)
+        self.submitButton = Button(inputFrame, text="Submit")
+        self.submitButton.bind("<Button-1>", self.submit)
         self.submitButton.pack(side=LEFT)
 
         # Clear button to clear the text view
@@ -86,7 +87,7 @@ class App:
         if self.artistTitleField.get() != "" and self.albumTitleField.get() != "":
             func.printInfo(self, self.albumTitleField.get(), self.artistTitleField.get())
     
-    def clear(self, event):
+    def clear(self):
         self.outputField.config(state=NORMAL)
         self.outputField.delete('1.0', self.outputField.index(END))
         self.outputField.config(state=DISABLED)

@@ -9,6 +9,7 @@ For macOS:
 - Open Terminal
 - Browse to the `[directory-name]/dist`. 
 - Run LyricChecker.app
+- If a security message appears saying that *"LyricChecker is from an unidentified developer"*, go to System Preferences>Security and press the "Open Anyway" button at the bottom of the pane. You may have to put in an administrator's password to unlock the preference pane.
 - **Note: if you've downloaded the zip file to your downloads folder, unzip it and then browse to ~/Downloads/LyricChecker-master/dist**
 
 For Windows:

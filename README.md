@@ -27,6 +27,7 @@ I am not responsible for the misuse of this script by any people, though my inte
 
 # Ideas
 - Catch for artist title parsing error for AZLyrics
+- Support for slang lyrics (e.g: f\*\*\*in')
 - Better interface (Tkinter has been implemented - further work needed?)
 - Windows executable application (py2exe support)
 - Mobile/web integration?
